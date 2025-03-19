@@ -49,7 +49,7 @@ for _ in 0..<5 {
     print("The average is \(average)")
 }
 
-func populatingArray() -> [Int] {
+func populatingArray() -> [Int] { 
     // Create an array to hold the random integers
     var arrayRandomInts: [Int] = []
 
