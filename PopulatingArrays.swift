@@ -27,6 +27,14 @@ for _ in 0..<5 {
     // Set sum
     var sum = 0
 
+    // Print the unsorted array
+    print("The unsorted array is: ", terminator: "")
+    for index in 0 ..< MAX_ARRAY {
+        // Print the unsorted array with terminator to not go to the next line
+        // https://www.programiz.com/swift-programming/basic-input-output
+        print("\(arrayRandomInts[index]) ", terminator: "")
+    }
+
     // sort the array
     arrayRandomInts.sort()
 
@@ -38,7 +46,9 @@ for _ in 0..<5 {
     // Calculate the average
     let average: Double = Double(sum) / Double(MAX_ARRAY)
 
-    // Print the sorted array and the average in for loop
+    // Print the sorted array
+    print("The sorted array is: ", terminator: "")
+    // FOR loop to print the sorted array
     for index in 0 ..< MAX_ARRAY {
         // Print the sorted array with terminator to not go to the next line
         // https://www.programiz.com/swift-programming/basic-input-output
