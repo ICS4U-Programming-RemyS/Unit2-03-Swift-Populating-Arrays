@@ -49,12 +49,12 @@ for _ in 0..<5 {
     print("The average is \(average)")
 }
 
-func populatingArray() -> [Int] { 
+func populatingArray() -> [Int] {
     // Create an array to hold the random integers
     var arrayRandomInts: [Int] = []
 
     // FOR loop to generate 50 random integers
-    for _ in 0 ..< MAX_ARRAY{
+    for _ in 0 ..< MAX_ARRAY {
         // Generate a random integer between 1 and 100
         let randomInt = Int.random(in: 1...100)
 
